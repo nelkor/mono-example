@@ -1,5 +1,4 @@
 {
-  "private": true,
   "workspaces": [
     "app",
     "packages/*"
@@ -10,6 +9,7 @@
     "dev": "npm run dev -w app",
     "build": "npm run build -w app",
     "build:math": "npm run build -w @internal/math",
+    "build:words": "npm run build -w @internal/words",
     "build:entities": "npm run build -w @internal/entities"
   },
   "devDependencies": {

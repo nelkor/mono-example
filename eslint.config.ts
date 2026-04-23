@@ -46,6 +46,7 @@ export default defineConfig(
     // perfectionist
     rules: {
       'perfectionist/sort-objects': [2, { order: 'asc', type: 'line-length' }],
+      'perfectionist/sort-exports': [2, { order: 'asc', type: 'line-length' }],
       'perfectionist/sort-interfaces': [
         2,
         { order: 'asc', type: 'line-length' },
