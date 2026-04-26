@@ -1,3 +1,4 @@
-export * from './types'
-export * from './word-sets'
-export * from './languages'
+export { languages } from './languages'
+export { verbs, nouns } from './word-sets'
+
+export type { WordSet, SupportedLang } from './types'

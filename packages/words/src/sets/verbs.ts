@@ -1,4 +1,4 @@
-import { WordSet } from '../types'
+import { WordSet } from '@/types'
 
 export const verbs: WordSet = {
   name: {
