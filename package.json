@@ -1,13 +1,13 @@
 {
   "workspaces": [
-    "app",
+    "web",
     "packages/*"
   ],
   "scripts": {
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "dev": "npm run dev -w app",
-    "build": "npm run build -w app",
+    "dev": "npm run dev -w web",
+    "build": "npm run build -w web",
     "build:math": "npm run build -w @internal/math",
     "build:words": "npm run build -w @internal/words",
     "build:entities": "npm run build -w @internal/entities"
